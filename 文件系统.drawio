@@ -135,6 +135,12 @@
             <mxPoint y="10" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="HaxelWW4c8Smi8qCJJTY-60" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;目录缓存&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="HaxelWW4c8Smi8qCJJTY-50">
+          <mxGeometry x="531" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HaxelWW4c8Smi8qCJJTY-61" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;索引节点&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;缓存&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="HaxelWW4c8Smi8qCJJTY-50">
+          <mxGeometry x="531" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
