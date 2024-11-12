@@ -631,8 +631,8 @@
         <mxCell id="N2_QX7AaUiCL6Sj8VyHO-67" value="从链表记录的游标游标PB开始向后查找第一个有足够空闲空间的块并记录并移动PB至下一节点" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;strokeColor=#666666;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="N2_QX7AaUiCL6Sj8VyHO-58">
           <mxGeometry x="251" y="362" width="549" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="N2_QX7AaUiCL6Sj8VyHO-68" value="各个内存块按照首地址值从低到高用链表排列连接" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;strokeColor=#666666;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="N2_QX7AaUiCL6Sj8VyHO-58">
-          <mxGeometry x="531" y="22" width="300" height="50" as="geometry" />
+        <mxCell id="N2_QX7AaUiCL6Sj8VyHO-68" value="各个内存块按照可用空间大小从低到高用链表排列连接" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;strokeColor=#666666;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fillColor=#f5f5f5;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="N2_QX7AaUiCL6Sj8VyHO-58">
+          <mxGeometry x="495" y="12" width="365" height="88" as="geometry" />
         </mxCell>
         <mxCell id="N2_QX7AaUiCL6Sj8VyHO-69" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#ffe6cc;strokeColor=#d79b00;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
