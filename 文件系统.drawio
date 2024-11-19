@@ -389,45 +389,45 @@
           <mxGeometry x="260" y="508" width="43.01" height="29.99" as="geometry" />
         </mxCell>
         <mxCell id="reRIT3HpYaL-Jc85o68O-180" value="变长字段长度列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="585" width="60" height="35" as="geometry" />
+          <mxGeometry x="20" y="606" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="reRIT3HpYaL-Jc85o68O-181" value="NULL值列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="585" width="40" height="35" as="geometry" />
+          <mxGeometry x="80" y="606" width="40" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="reRIT3HpYaL-Jc85o68O-182" value="记录头信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="120" y="585" width="40" height="35" as="geometry" />
+        <mxCell id="reRIT3HpYaL-Jc85o68O-182" value="记录头信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="17.5" y="801" width="40" height="35" as="geometry" />
         </mxCell>
         <mxCell id="reRIT3HpYaL-Jc85o68O-183" value="row_id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="585" width="50" height="35" as="geometry" />
+          <mxGeometry x="160" y="606" width="50" height="35" as="geometry" />
         </mxCell>
         <mxCell id="reRIT3HpYaL-Jc85o68O-184" value="trx_id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="210" y="585" width="40" height="35" as="geometry" />
+          <mxGeometry x="210" y="606" width="40" height="35" as="geometry" />
         </mxCell>
         <mxCell id="reRIT3HpYaL-Jc85o68O-185" value="roll_ptr" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="250" y="585" width="40" height="35" as="geometry" />
+          <mxGeometry x="250" y="606" width="40" height="35" as="geometry" />
         </mxCell>
         <mxCell id="reRIT3HpYaL-Jc85o68O-186" value="列1值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="290" y="585" width="40" height="35" as="geometry" />
+          <mxGeometry x="290" y="606" width="40" height="35" as="geometry" />
         </mxCell>
         <mxCell id="reRIT3HpYaL-Jc85o68O-187" value="列n值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
-          <mxGeometry x="330" y="585" width="40" height="35" as="geometry" />
+          <mxGeometry x="330" y="606" width="40" height="35" as="geometry" />
         </mxCell>
         <mxCell id="reRIT3HpYaL-Jc85o68O-188" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="663" as="sourcePoint" />
-            <mxPoint x="20" y="623" as="targetPoint" />
+            <mxPoint x="20" y="684" as="sourcePoint" />
+            <mxPoint x="20" y="644" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="reRIT3HpYaL-Jc85o68O-189" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="663" as="sourcePoint" />
-            <mxPoint x="160" y="623" as="targetPoint" />
+            <mxPoint x="160" y="684" as="sourcePoint" />
+            <mxPoint x="160" y="644" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="reRIT3HpYaL-Jc85o68O-190" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="650" as="sourcePoint" />
-            <mxPoint x="160" y="650" as="targetPoint" />
+            <mxPoint x="20" y="671" as="sourcePoint" />
+            <mxPoint x="160" y="671" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="reRIT3HpYaL-Jc85o68O-191" value="记录的额外信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="reRIT3HpYaL-Jc85o68O-190">
@@ -437,14 +437,14 @@
         </mxCell>
         <mxCell id="reRIT3HpYaL-Jc85o68O-193" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="370" y="663" as="sourcePoint" />
-            <mxPoint x="370" y="623" as="targetPoint" />
+            <mxPoint x="370" y="684" as="sourcePoint" />
+            <mxPoint x="370" y="644" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="reRIT3HpYaL-Jc85o68O-194" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="640" as="sourcePoint" />
-            <mxPoint x="370" y="640" as="targetPoint" />
+            <mxPoint x="160" y="661" as="sourcePoint" />
+            <mxPoint x="370" y="661" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="reRIT3HpYaL-Jc85o68O-195" value="记录的真实数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="reRIT3HpYaL-Jc85o68O-194">
@@ -453,16 +453,46 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="c9fKW7coMuW1ouZdfKN9-1" value="变长字段长度列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="18.5" y="680" width="60" height="35" as="geometry" />
+          <mxGeometry x="18.5" y="701" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="c9fKW7coMuW1ouZdfKN9-2" value="NULL值列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="17" y="730" width="43" height="35" as="geometry" />
+          <mxGeometry x="17" y="751" width="43" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="c9fKW7coMuW1ouZdfKN9-4" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;表中varchar(n)的字段的长度列表,每个varchar(n)的字段用1字节表示长度.所以&lt;font color=&quot;#ff3333&quot;&gt;该位占N字节&lt;/font&gt;&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=30;position=0.17;base=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="81.5" y="680" width="288.5" height="30" as="geometry" />
+        <mxCell id="c9fKW7coMuW1ouZdfKN9-4" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;表中varchar(n)的字段的长度列表,每个varchar(n)的字段用1字节表示长度.所以&lt;font color=&quot;#ff3333&quot;&gt;该位占N字节。&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;非必须位，如果所有字段都不是varchar(n)，行格式中就没有 [变长字段列表] 部分。&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=30;position=0.17;base=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="81.5" y="701" width="278.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="c9fKW7coMuW1ouZdfKN9-5" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;表中如果允许某些字段为NULL值,则每个字段占据1bit的空间,0标识该列不为NULL,1表示该列为NULL.每个允许为NULL的字段占据1bit,&lt;font color=&quot;#ff3333&quot;&gt;一共占据N bit,对8bit(1字节取整)向上取整&lt;/font&gt;。&lt;br&gt;&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=30;position=0.17;base=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="61" y="732.5" width="309" height="30" as="geometry" />
+        <mxCell id="c9fKW7coMuW1ouZdfKN9-5" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;表中如果允许某些字段为NULL值,则每个字段占据1bit的空间,0标识该列不为NULL,1表示该列为NULL.每个允许为NULL的字段占据1bit,&lt;font color=&quot;#ff3333&quot;&gt;一共占据N bit,对8bit(1字节取整)向上取整&lt;/font&gt;。&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;非必须位，如果所有字段都不允许为NULL，行格式中就没有 [NULL值列表] 部分。&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=30;position=0.17;base=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="61" y="741" width="279" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c9fKW7coMuW1ouZdfKN9-6" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;包含的内容很多,比较重要的有delete_mask标记记录是否被删除;next_record下一条记录的位置,记录和记录之间通过链表组织的;record_type 当前记录的类型:0 普通记录(叶子节点),1 B+树非叶子节点记录,2 极小值记录, 3 极大值记录&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=30;position=0.17;base=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="60" y="793.5" width="260" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c9fKW7coMuW1ouZdfKN9-7" value="记录头信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
+          <mxGeometry x="120" y="606" width="40" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="c9fKW7coMuW1ouZdfKN9-8" value="row_id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="15.5" y="854.5" width="42.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c9fKW7coMuW1ouZdfKN9-9" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;非必须位,如果用户建表时指定了主键或者唯一索引,那[row_id]部分就没有了,否则innodb就会创建一个隐藏字段row_id(6字节),当做主键&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=30;position=0.17;base=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="60" y="850.75" width="239" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="c9fKW7coMuW1ouZdfKN9-10" value="trx_id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="16.25" y="897" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c9fKW7coMuW1ouZdfKN9-12" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;必须位,6字节,表示记录是由哪个事务id生成的.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=30;position=0.17;base=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="57.75" y="897" width="171.25" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c9fKW7coMuW1ouZdfKN9-13" value="roll_ptr" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="17" y="934.5" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c9fKW7coMuW1ouZdfKN9-14" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;必须位,7字节,指向上一个版本记录的位置.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=30;position=0.17;base=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="59" y="934.5" width="161" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c9fKW7coMuW1ouZdfKN9-16" value="" style="swimlane;startSize=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="550" width="370" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="c9fKW7coMuW1ouZdfKN9-17" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;1行记录的最大长度&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;[变长字段长度] + [NULL值列表长度] + [各列值长度] &amp;lt;= 65535&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=1;" vertex="1" parent="c9fKW7coMuW1ouZdfKN9-16">
+          <mxGeometry x="109.01" y="6" width="184" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
