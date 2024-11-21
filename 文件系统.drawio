@@ -464,7 +464,7 @@
         <mxCell id="c9fKW7coMuW1ouZdfKN9-5" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;表中如果允许某些字段为NULL值,则每个字段占据1bit的空间,0标识该列不为NULL,1表示该列为NULL.每个允许为NULL的字段占据1bit,&lt;font color=&quot;#ff3333&quot;&gt;一共占据N bit,对8bit(1字节取整)向上取整&lt;/font&gt;。&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;非必须位，如果所有字段都不允许为NULL，行格式中就没有 [NULL值列表] 部分。&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=30;position=0.17;base=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="61" y="741" width="279" height="42.5" as="geometry" />
         </mxCell>
-        <mxCell id="c9fKW7coMuW1ouZdfKN9-6" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;包含很多,重要的有delete_mask标记记录是否被删除;next_record同一页内下一条记录的位置;record_type 当前记录的类型:0 叶子节点,1 B+树非叶子节点记录,2 极小值记录, 3 极大值记录&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=30;position=0.17;base=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="c9fKW7coMuW1ouZdfKN9-6" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;包含很多,重要的有delete_mask标记记录是否被删除;next_record同一页内下一条记录的位置;record_type 当前记录的类型:0 叶子节点,1 B+树非叶子节点记录,2 极小值记录, 3 极大值记录,该部分&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;占固定5个字节&lt;/font&gt;&lt;/b&gt;。&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=30;position=0.17;base=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="60" y="793.5" width="240" height="46.5" as="geometry" />
         </mxCell>
         <mxCell id="c9fKW7coMuW1ouZdfKN9-7" value="记录头信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
@@ -479,14 +479,11 @@
         <mxCell id="c9fKW7coMuW1ouZdfKN9-10" value="trx_id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="16.25" y="897" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="c9fKW7coMuW1ouZdfKN9-12" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;必须位,6字节,表示记录是由哪个事务id生成的.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=30;position=0.17;base=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="57.75" y="897" width="171.25" height="20" as="geometry" />
+        <mxCell id="c9fKW7coMuW1ouZdfKN9-12" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;主键索引记录必须位,6字节,表示记录是由哪个事务id生成的.&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=30;position=0.17;base=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="57.75" y="890" width="202.25" height="27" as="geometry" />
         </mxCell>
         <mxCell id="c9fKW7coMuW1ouZdfKN9-13" value="roll_ptr" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="17" y="934.5" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="c9fKW7coMuW1ouZdfKN9-14" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;必须位,7字节,指向上一个版本记录的位置.&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;即 undolog&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=30;position=0.17;base=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="59" y="934.5" width="181" height="20" as="geometry" />
         </mxCell>
         <mxCell id="c9fKW7coMuW1ouZdfKN9-16" value="" style="swimlane;startSize=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="550" width="370" height="410" as="geometry" />
@@ -569,6 +566,9 @@
               <mxPoint x="318" y="350" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="c9fKW7coMuW1ouZdfKN9-14" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;主键索引记录&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;必须位,7字节,指向上一个版本记录的位置.&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;即 undolog&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;direction=south;size=30;position=0.17;base=10;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="c9fKW7coMuW1ouZdfKN9-16">
+          <mxGeometry x="49" y="372" width="191" height="34" as="geometry" />
         </mxCell>
         <mxCell id="c9fKW7coMuW1ouZdfKN9-20" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;页头&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;(38字节)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="406" y="607" width="54" height="39" as="geometry" />
@@ -1434,6 +1434,9 @@
         </mxCell>
         <mxCell id="sjhpZ21hpRv1PNrx0NVh-373" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;slot[n]存储的是组最大的索引值所在的业内偏移量,由于&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;用户记录整体上是一个有序的单链表,为了便于查找把整个链表做了分组,slot[n]表示第n组,先对slot[0~n]使用2分查找法,定位到具体的slot后,再对slot进行组内遍历,为了控制组内记录的长度,设置如下规则:&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;slot[0]只有1条记录&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;slot[1~倒数第二组]:4~8条记录&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;slot[最后一组]: 1~8条记录&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;flipH=0;flipV=1;direction=south;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="463" y="770" width="227" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sjhpZ21hpRv1PNrx0NVh-376" value="Page解析" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="401" y="553" width="75" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
