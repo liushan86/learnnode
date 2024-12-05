@@ -3672,21 +3672,21 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="PFOPn1D4eEb2K8op0EXA" name="第 5 页">
-    <mxGraphModel dx="5923" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+  <diagram id="PFOPn1D4eEb2K8op0EXA" name="事务mtr时序">
+    <mxGraphModel dx="5391" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pPC04RYDnh-aTaIRjio5-45" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashPattern=1 1;" edge="1" parent="1" target="pPC04RYDnh-aTaIRjio5-15">
+        <mxCell id="pPC04RYDnh-aTaIRjio5-45" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashPattern=1 1;" edge="1" parent="1" source="pPC04RYDnh-aTaIRjio5-163" target="pPC04RYDnh-aTaIRjio5-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="154" y="1290" as="sourcePoint" />
+            <mxPoint x="154" y="1890" as="sourcePoint" />
             <mxPoint x="154" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pPC04RYDnh-aTaIRjio5-7" value="事务" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="20" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pPC04RYDnh-aTaIRjio5-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=1 1;" edge="1" parent="1">
+        <mxCell id="pPC04RYDnh-aTaIRjio5-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=1 1;" edge="1" parent="1" source="pPC04RYDnh-aTaIRjio5-159">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="65" y="1519.6" as="sourcePoint" />
             <mxPoint x="65" y="100" as="targetPoint" />
@@ -3749,16 +3749,16 @@
             <mxPoint x="295.4599999999999" y="230.84000000000003" as="targetPoint" />
             <mxPoint x="285.5" y="216" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="330" y="216" />
-              <mxPoint x="330" y="231" />
+              <mxPoint x="400" y="216" />
+              <mxPoint x="400" y="231" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="pPC04RYDnh-aTaIRjio5-34" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285.5" y="208" width="10" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="pPC04RYDnh-aTaIRjio5-37" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;4 对页A&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;进行n处修改&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="333.00494832893503" y="204.00472451844348" as="geometry">
+        <mxCell id="pPC04RYDnh-aTaIRjio5-37" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;4 对页A进行n处修改&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="365.00494832893503" y="216.00472451844348" as="geometry">
             <mxPoint x="-20" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -3863,16 +3863,16 @@
             <mxPoint x="295.4599999999999" y="415.84000000000003" as="targetPoint" />
             <mxPoint x="285.5" y="401" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="330" y="401" />
-              <mxPoint x="330" y="416" />
+              <mxPoint x="400" y="401" />
+              <mxPoint x="400" y="416" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="pPC04RYDnh-aTaIRjio5-64" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285.5" y="393" width="10" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="pPC04RYDnh-aTaIRjio5-65" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;10 对页B&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;进行n处修改&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="333.00494832893503" y="389.0047245184435" as="geometry">
+        <mxCell id="pPC04RYDnh-aTaIRjio5-65" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;10 对页B进行n处修改&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="370.00494832893503" y="401.0047245184435" as="geometry">
             <mxPoint x="-20" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -3902,7 +3902,7 @@
           <mxGeometry x="60" y="450" width="10" height="400" as="geometry" />
         </mxCell>
         <mxCell id="pPC04RYDnh-aTaIRjio5-73" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;dashed=1;dashPattern=1 2;" vertex="1" parent="1">
-          <mxGeometry x="-4.5" y="366" width="344.5" height="100" as="geometry" />
+          <mxGeometry x="-4.5" y="366" width="424.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="pPC04RYDnh-aTaIRjio5-74" value="mtr2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="482" width="36" height="10" as="geometry" />
@@ -3957,16 +3957,16 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="600" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="330" y="581" />
-              <mxPoint x="330" y="600" />
+              <mxPoint x="400" y="580" />
+              <mxPoint x="400" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="pPC04RYDnh-aTaIRjio5-83" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285.5" y="570" width="10" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="pPC04RYDnh-aTaIRjio5-86" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;16 对页C&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;进行n处修改&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="334.00494832893503" y="567.0047245184435" as="geometry">
+        <mxCell id="pPC04RYDnh-aTaIRjio5-86" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;16 对页C进行n处修改&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="369.00494832893503" y="581.0047245184435" as="geometry">
             <mxPoint x="-20" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -4017,7 +4017,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pPC04RYDnh-aTaIRjio5-95" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="204" y="720" width="10" height="340" as="geometry" />
+          <mxGeometry x="204" y="720" width="10" height="720" as="geometry" />
         </mxCell>
         <mxCell id="pPC04RYDnh-aTaIRjio5-97" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.04;exitY=0.15;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -4048,7 +4048,7 @@
         <mxCell id="pPC04RYDnh-aTaIRjio5-101" value="log_sys" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="551" y="40" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="pPC04RYDnh-aTaIRjio5-102" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.433;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;dashPattern=1 1;" edge="1" parent="1" target="pPC04RYDnh-aTaIRjio5-101">
+        <mxCell id="pPC04RYDnh-aTaIRjio5-102" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.433;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;dashPattern=1 1;" edge="1" parent="1" source="pPC04RYDnh-aTaIRjio5-132" target="pPC04RYDnh-aTaIRjio5-101">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="588" y="1890" as="sourcePoint" />
             <mxPoint x="691" y="210" as="targetPoint" />
@@ -4118,7 +4118,7 @@
         </mxCell>
         <mxCell id="pPC04RYDnh-aTaIRjio5-118" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;26 如果日志缓冲区最大limit_sn值&amp;lt;end_sn,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;需要等待缓冲区的数据写入redolog文件后&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;或者干脆直接扩大缓冲区(需要写入的len&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;日志缓冲区大小,默认16M)，推进limit_sn&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;值。此时mtr就处于阻塞等待信号的状态。&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="pPC04RYDnh-aTaIRjio5-117">
           <mxGeometry x="-0.5804" relative="1" as="geometry">
-            <mxPoint x="8" y="-17" as="offset" />
+            <mxPoint x="8" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pPC04RYDnh-aTaIRjio5-119" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.067;entryY=0.597;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pPC04RYDnh-aTaIRjio5-114">
@@ -4152,10 +4152,221 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pPC04RYDnh-aTaIRjio5-125" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;29 把mtr中的每个block中的redolog写入日志缓冲区,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;每个block写入前检查log_sys-&amp;gt;recent_written环形数&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;组(管理日志缓冲区的空洞)是否有足够空间。没有的话&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;就循环sleep20微秒,直到环形数组有空间(环形数组&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;默认1M &amp;gt; 512字节的block,每当redolog缓冲区的&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;数据写入redolog文件时,&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;recent_written&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;空间更新),&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;每个block块写入后就填充&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;recent_written的空洞&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="pPC04RYDnh-aTaIRjio5-124">
+        <mxCell id="pPC04RYDnh-aTaIRjio5-125" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;29 把mtr中的每个block中的redolog写入日志缓冲区,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;每个block写入&lt;b&gt;&lt;font color=&quot;#3333ff&quot;&gt;后&lt;/font&gt;&lt;/b&gt;检查log_sys-&amp;gt;recent_written环形数&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;组(管理日志缓冲区的空洞)是否对start_lsn有足够空间。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;没有的话就循环sleep20微秒,直到环形数组有空间(&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;环形数组默认1M &amp;gt; 512字节的block,每当redolog缓冲&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;区的数据写入redolog文件时,&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;recent_written&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;空间更新),&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;每个block块写入后就填充&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;recent_written的空洞&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="pPC04RYDnh-aTaIRjio5-124">
           <mxGeometry x="-0.5804" relative="1" as="geometry">
             <mxPoint x="9" y="-38" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-127" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.067;entryY=0.597;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="584" y="1050" as="sourcePoint" />
+            <mxPoint x="214.99999999999918" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-130" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;30 mtr产生的redolog都写入到了缓冲区&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="314" y="1020.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-131" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="221" y="1101" as="sourcePoint" />
+            <mxPoint x="581" y="1101" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-133" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.433;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;dashPattern=1 1;" edge="1" parent="1" source="pPC04RYDnh-aTaIRjio5-149" target="pPC04RYDnh-aTaIRjio5-132">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="588" y="1890" as="sourcePoint" />
+            <mxPoint x="590" y="59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-132" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="584" y="1100" width="10" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-135" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;31 &lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;判断是否可以把产生的脏业加入到脏业链表&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="394.99857142857155" y="1089" as="geometry" />
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.977;exitY=0.662;exitDx=0;exitDy=0;entryX=1.046;entryY=0.893;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="594" y="1172" as="targetPoint" />
+            <mxPoint x="594" y="1151" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="750" y="1151" />
+              <mxPoint x="750" y="1172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-137" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;32 判断log_sys-&amp;gt;recent_closed对start_lsn是否有空间.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;没有空间就循环发信号给log_closer线程并等待20毫秒。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;recent_closed管理脏业链表old_lsn的空洞,处于空洞&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;范围的lsn的脏业还未加入到脏业链表。用于计算&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;checkpoint_lsn值(从所有bufpool中读取第一个非临时表&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;的数据页的old_lsn.然后取其中最小的那个&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;old_lsn&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;再减去&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;recent_closed&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;的容量就可以当checkpoint,因为&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;有间隙,可以和last_checkpoint做比较取较大的值)&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="pPC04RYDnh-aTaIRjio5-136">
+          <mxGeometry x="-0.4744" y="2" relative="1" as="geometry">
+            <mxPoint x="-9" y="-37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-138" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.067;entryY=0.597;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="583" y="1181" as="sourcePoint" />
+            <mxPoint x="213.99999999999918" y="1181" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-139" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;33 &lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;可以把产生的脏业加入到脏业链表了&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="393.99857142857155" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-140" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285.5" y="1220" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-141" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1.04;exitY=0.86;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="212.5" y="1220" as="sourcePoint" />
+            <mxPoint x="285.5" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-142" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;34 把脏业加入到&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;bufpool中的&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;flush_list&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pPC04RYDnh-aTaIRjio5-141">
+          <mxGeometry x="-0.35" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1.05;entryY=0.717;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="295.5" y="1260" as="targetPoint" />
+            <mxPoint x="295.5" y="1241" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="296" y="1240" />
+              <mxPoint x="440" y="1240" />
+              <mxPoint x="440" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-144" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;35 &lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;修改脏业控制块的oldest_modification&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;newest_modification。并判断是否真正加入到&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;flush_list&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pPC04RYDnh-aTaIRjio5-143">
+          <mxGeometry x="-0.4491" relative="1" as="geometry">
+            <mxPoint x="-12" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-145" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="1280" as="sourcePoint" />
+            <mxPoint x="216" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-147" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;36 脏业入脏返回&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pPC04RYDnh-aTaIRjio5-145">
+          <mxGeometry x="-0.05" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-148" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="213" y="1310" as="sourcePoint" />
+            <mxPoint x="580" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-150" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.433;entryY=0.971;entryDx=0;entryDy=0;entryPerimeter=0;dashPattern=1 1;" edge="1" parent="1" target="pPC04RYDnh-aTaIRjio5-149">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="588" y="1890" as="sourcePoint" />
+            <mxPoint x="588" y="1179" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-149" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="583" y="1310" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-151" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;37 &lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;填充log_sys-&amp;gt;recent_closed的空洞&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="379.99857142857155" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.977;exitY=0.662;exitDx=0;exitDy=0;entryX=1.046;entryY=0.893;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="594" y="1347" as="targetPoint" />
+            <mxPoint x="594" y="1326" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="750" y="1326" />
+              <mxPoint x="750" y="1347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-153" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;38 根据star_lsn找出&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;log_sys-&amp;gt;recent_closed&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;上&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;对应的slot,更新为end_lsn-start_lsn的差值&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="pPC04RYDnh-aTaIRjio5-152">
+          <mxGeometry x="-0.4744" y="2" relative="1" as="geometry">
+            <mxPoint x="-9" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-154" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.067;entryY=0.597;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="583" y="1360" as="sourcePoint" />
+            <mxPoint x="213.99999999999918" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-155" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;39 &lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;log_sys-&amp;gt;recent_closed空洞填充完成&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="379.99857142857155" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.977;exitY=0.662;exitDx=0;exitDy=0;entryX=1.046;entryY=0.893;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="213" y="1421" as="targetPoint" />
+            <mxPoint x="213" y="1400" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="280" y="1400" />
+              <mxPoint x="280" y="1421" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-157" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;40 先释放持有的页锁&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;再释放申请的内存&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pPC04RYDnh-aTaIRjio5-156">
+          <mxGeometry x="-0.4744" y="2" relative="1" as="geometry">
+            <mxPoint x="-7" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-158" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="202" y="1440" as="sourcePoint" />
+            <mxPoint x="70" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-160" value="" style="endArrow=none;dashed=1;html=1;rounded=0;dashPattern=1 1;" edge="1" parent="1" target="pPC04RYDnh-aTaIRjio5-159">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="65" y="1819.6" as="sourcePoint" />
+            <mxPoint x="65" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-159" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1440" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-162" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;41 mtr2提交返回&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="1418" width="80" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-165" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashPattern=1 1;" edge="1" parent="1" target="pPC04RYDnh-aTaIRjio5-163">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="154" y="1890" as="sourcePoint" />
+            <mxPoint x="154" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-163" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="1510" width="10" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-166" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.28;exitY=0.978;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="pPC04RYDnh-aTaIRjio5-159">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="78" y="1508.8200000000002" as="sourcePoint" />
+            <mxPoint x="147" y="1509" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-167" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;42 提交mtr1&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pPC04RYDnh-aTaIRjio5-166">
+          <mxGeometry x="-0.35" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.977;exitY=0.662;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1560" as="targetPoint" />
+            <mxPoint x="162" y="1530" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="200" y="1530" />
+              <mxPoint x="200" y="1560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-169" value="&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;43 提交时序&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;参靠mtr2&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pPC04RYDnh-aTaIRjio5-168">
+          <mxGeometry x="-0.4744" y="2" relative="1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-170" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="149" y="1598" as="sourcePoint" />
+            <mxPoint x="70" y="1598" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pPC04RYDnh-aTaIRjio5-171" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;44 mtr1提交返回&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="84" y="1575" width="62" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
