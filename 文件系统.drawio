@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.4" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.5" pages="6">
   <diagram name="文件系统" id="NZ0fPZW0d-f_DHmHHCqM">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4367,6 +4367,113 @@
         </mxCell>
         <mxCell id="pPC04RYDnh-aTaIRjio5-171" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;44 mtr1提交返回&lt;br&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="84" y="1575" width="62" height="22" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tARKoZY1Gi0Tl8MWRPlz" name="MySQL常见用户运维问题">
+    <mxGraphModel dx="239" dy="144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-1" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;根节点&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="80" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="213" y="80" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-6" value="......" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="82.5" width="30" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-7" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-9" value="......" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="76" y="119" width="30" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="179" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WSV_HC8uO1w-D5abuiIh-1" target="WSV_HC8uO1w-D5abuiIh-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="70" as="sourcePoint" />
+            <mxPoint x="100" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.62;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WSV_HC8uO1w-D5abuiIh-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="159" y="60" as="sourcePoint" />
+            <mxPoint x="95" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.57;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WSV_HC8uO1w-D5abuiIh-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="60" as="sourcePoint" />
+            <mxPoint x="125" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.625;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WSV_HC8uO1w-D5abuiIh-2" target="WSV_HC8uO1w-D5abuiIh-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="230" as="sourcePoint" />
+            <mxPoint x="120" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.57;exitY=1.03;exitDx=0;exitDy=0;entryX=0.407;entryY=0.16;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="WSV_HC8uO1w-D5abuiIh-2" target="WSV_HC8uO1w-D5abuiIh-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="85" y="110" as="sourcePoint" />
+            <mxPoint x="65" y="131" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.57;exitY=1.03;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" target="WSV_HC8uO1w-D5abuiIh-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="98" y="100" as="sourcePoint" />
+            <mxPoint x="98" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WSV_HC8uO1w-D5abuiIh-4" target="WSV_HC8uO1w-D5abuiIh-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="180" as="sourcePoint" />
+            <mxPoint x="340" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="119" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="WSV_HC8uO1w-D5abuiIh-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="253" y="99" as="sourcePoint" />
+            <mxPoint x="229" y="119" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-20" value="......" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="226" y="119.5" width="30" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-22" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="350" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-23" value="&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;为什么MySQL 单表最好不要超过 2000W？&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WSV_HC8uO1w-D5abuiIh-22">
+          <mxGeometry x="61" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-24" value="&lt;div&gt;B+树存储的元素总数量公式&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;Total = 非叶子节点页面可存储的元素&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;最大&lt;/font&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;数量X ^ (树的层数L -1 )次方&amp;nbsp; * 叶子节点的存储的最大元素Y&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WSV_HC8uO1w-D5abuiIh-22">
+          <mxGeometry x="7" y="180" width="313" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-29" value="&lt;font style=&quot;font-size: 3px; color: rgb(255, 51, 51);&quot;&gt;页大小是16K，减去页头等字段 我们按照&lt;/font&gt;&lt;font style=&quot;font-size: 3px; color: rgb(0, 204, 0);&quot;&gt;15K&lt;/font&gt;&lt;font style=&quot;font-size: 3px; color: rgb(255, 51, 51);&quot;&gt;空间存储数据来计算&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WSV_HC8uO1w-D5abuiIh-22">
+          <mxGeometry x="24" y="209" width="100" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-30" value="&lt;font style=&quot;font-size: 3px; color: rgb(255, 51, 51);&quot;&gt;非叶子节点存储的一般都是 主键索引id以及所在页号(pageNo)，主键索引一般是8字节、页号也是4字节，加起来就是12字节。所以一个非叶子页最多可以存15K/12字节 = &lt;/font&gt;&lt;font style=&quot;font-size: 3px; color: rgb(0, 204, 0);&quot;&gt;1000&lt;/font&gt;&lt;font style=&quot;font-size: 3px; color: rgb(255, 51, 51);&quot;&gt;条数据&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="38" y="253" width="266" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-31" value="&lt;font style=&quot;font-size: 3px; color: rgb(255, 51, 51);&quot;&gt;叶子节点存储的数据跟每张表的表结构的每行数据占的总大小有关,我们用常见的0.5K~1K字节来计算:15K/1K=15条,15K/0.5K=30条,即叶子节点可存15~30条，取中间值估算为&lt;/font&gt;&lt;font style=&quot;font-size: 3px; color: rgb(51, 51, 255);&quot;&gt;20&lt;/font&gt;&lt;font style=&quot;font-size: 3px; color: rgb(255, 51, 51);&quot;&gt;条&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="36" y="274" width="266" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WSV_HC8uO1w-D5abuiIh-32" value="&lt;font style=&quot;font-size: 3px; color: rgb(255, 51, 51);&quot;&gt;单表3层总行数: total = 1000^2 * 20 = 1000,000 * 20 = &lt;/font&gt;&lt;font style=&quot;font-size: 3px; color: rgb(51, 51, 255);&quot;&gt;2千万&lt;/font&gt;&lt;font style=&quot;font-size: 3px; color: rgb(255, 51, 51);&quot;&gt;条&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="42" y="295" width="100" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
