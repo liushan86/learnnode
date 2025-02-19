@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0" version="26.0.5" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:135.0) Gecko/20100101 Firefox/135.0" version="26.0.14" pages="7">
   <diagram name="文件系统" id="NZ0fPZW0d-f_DHmHHCqM">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4471,6 +4471,35 @@
         </mxCell>
         <mxCell id="WSV_HC8uO1w-D5abuiIh-32" value="&lt;font style=&quot;font-size: 3px; color: rgb(255, 51, 51);&quot;&gt;单表3层总行数: total = 1000^2 * 20 = 1000,000 * 20 = &lt;/font&gt;&lt;font style=&quot;font-size: 3px; color: rgb(51, 51, 255);&quot;&gt;2千万&lt;/font&gt;&lt;font style=&quot;font-size: 3px; color: rgb(255, 51, 51);&quot;&gt;条&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="42" y="295" width="100" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SIw7-obm5SWVBrHtK0NV" name="网络系统知识">
+    <mxGraphModel dx="591" dy="356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s2jvZQqK_PBu0MARwoDe-1" value="MySQL的网络链接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="10" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s2jvZQqK_PBu0MARwoDe-2" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;主从服务之间的连接&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s2jvZQqK_PBu0MARwoDe-3" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;客户端和服务器之间的连接&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="70" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s2jvZQqK_PBu0MARwoDe-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s2jvZQqK_PBu0MARwoDe-1" target="s2jvZQqK_PBu0MARwoDe-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="200" as="sourcePoint" />
+            <mxPoint x="150" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2jvZQqK_PBu0MARwoDe-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s2jvZQqK_PBu0MARwoDe-1" target="s2jvZQqK_PBu0MARwoDe-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="220" as="sourcePoint" />
+            <mxPoint x="210" y="170" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
